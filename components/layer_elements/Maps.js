@@ -8,12 +8,12 @@ import {
   ScrollView,
   TouchableWithoutFeedback,
   Keyboard,
-  ActivityIndicator,
 } from 'react-native';
 import MapView, {PROVIDER_GOOGLE} from 'react-native-maps';
 import React, {useState} from 'react';
 import * as Location from 'expo-location';
 import icons from '../../assets/icons';
+
 import CoodData from '../etc_elements/CoodData';
 
 const API_KEY = 'AIzaSyCbqqW_U3VQSunxkN97dOg37eN4JnxzDjw';

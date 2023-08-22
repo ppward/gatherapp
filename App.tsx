@@ -6,6 +6,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import FirstLayer from './components/FirstLayer';
 import * as Location from 'expo-location';
 import CoodData from './components/etc_elements/CoodData';
+import CreateParty from './components/CreateParty';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,7 @@ export default function App() {
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="로그인" component={Signin} />
         <Stack.Screen name="메인" component={FirstLayer} />
+        <Stack.Screen name="파티생성" component={CreateParty} />
       </Stack.Navigator>
     </NavigationContainer>
   );
